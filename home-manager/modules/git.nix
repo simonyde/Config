@@ -14,6 +14,8 @@
     };
     ignores = [
       "*.sync-conflict*"
+      ".stignore"
+      ".stfolder"
     ];
   };
 }

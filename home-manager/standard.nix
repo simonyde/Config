@@ -14,6 +14,12 @@
   };
   services.syncthing.enable = true;
 
+
+  home.file = {
+    # "${config.xdg.configHome}/audiobook-dl/audiobook-dl.toml".source = ../audiobook-dl/audiobook-dl.toml;
+    # "${config.xdg.configHome}/nvim/".source = ../nvim;
+  };
+
   imports = [
     # Programming
     ./terminal.nix
